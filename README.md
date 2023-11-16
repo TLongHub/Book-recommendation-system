@@ -10,7 +10,7 @@ We want to recommend particular books to users based on a number of factors whic
 
 I plan to use RL techniques to create this recommendation system and thus we can model the problem as a Markov decision process (MDP). The following elements make up the MDP:
  - X_t is the current state and represents the history of books read/reviewed by the user
- - S is the state space and contains all possible values of X_t - S = {all subsets of the total set of all considered books in the model}
+ - S is the state space and contains all possible values of X_t, S = {all subsets of the total set of all considered books in the model}
  - Y_t is the current action and represents the next recommendation to be made
  - the action space, A, is the set of all books being considered in the model
  - admissable actions, A(s) = A\s
